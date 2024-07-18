@@ -82,7 +82,7 @@
         console.log(item.src);
         console.log(color);
         let a = color.split(",");
-        if (a[0]>=30&&a[0]<=36&&a[1]>=37&&a[1]<=45&&a[2]>=93&&a[2]<=113) {
+        if (a[0]>=29&&a[0]<=37&&a[1]>=37&&a[1]<=45&&a[2]>=93&&a[2]<=113) {
             if(item.hasAttribute("username")) {
                 item.classList.add("dai_post");
             } else {
