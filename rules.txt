@@ -1,11 +1,7 @@
-! 被呆哥头像屏蔽脚本标记的帖子
 tieba.baidu.com##.l_post:has(img.dai_post)
 tieba.baidu.com##.lzl_single_post:has(img.dai_lzl)
 
-! 贴吧的所有分享帖
 tieba.baidu.com##.j_thread_list:has(a.j_th_tit[title*="分享："])
-
-! https://tieba.baidu.com 呆哥小号
 
 tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.6a3302b7.Zje0sqT3aaYfCT05K91HtA"])
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.6a3302b7.Zje0sqT3aaYfCT05K91HtA"])
