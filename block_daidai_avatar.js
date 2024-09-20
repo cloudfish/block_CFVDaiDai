@@ -89,7 +89,7 @@
                 item.classList.add("dai_lzl");
             }
             item.style.display = "none";
-        } else {
+        } else if (a[0] != 218 || a[1] != 218 || a[2] != 218) {
             item.classList.add("not_dai");
         }
     }
