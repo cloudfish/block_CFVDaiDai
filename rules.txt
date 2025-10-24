@@ -11277,3 +11277,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.fb5e76f0.StbCXW
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.fb5e76f0.StbCXWW3IcxYVbpIyOq7NA"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.fb5e76f0.StbCXWW3IcxYVbpIyOq7NA"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.fb5e76f0.StbCXWW3IcxYVbpIyOq7NA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.4e5ed49c.uoH7ohX80OK-gtxg7FcR4w"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.4e5ed49c.uoH7ohX80OK-gtxg7FcR4w"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.4e5ed49c.uoH7ohX80OK-gtxg7FcR4w"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.4e5ed49c.uoH7ohX80OK-gtxg7FcR4w"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.926c55f8.gX_3Z8iCZo1TL-Eb-i7f6Q"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.926c55f8.gX_3Z8iCZo1TL-Eb-i7f6Q"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.926c55f8.gX_3Z8iCZo1TL-Eb-i7f6Q"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.926c55f8.gX_3Z8iCZo1TL-Eb-i7f6Q"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.e13b4d6b.4vHDpnm2ydWpxIK0reDVFQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.e13b4d6b.4vHDpnm2ydWpxIK0reDVFQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.e13b4d6b.4vHDpnm2ydWpxIK0reDVFQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.e13b4d6b.4vHDpnm2ydWpxIK0reDVFQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.6fd3a91.K1M5wejQ-X0MMgQJvKqR4w"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.6fd3a91.K1M5wejQ-X0MMgQJvKqR4w"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.6fd3a91.K1M5wejQ-X0MMgQJvKqR4w"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.6fd3a91.K1M5wejQ-X0MMgQJvKqR4w"])
