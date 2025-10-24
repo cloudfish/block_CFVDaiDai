@@ -11297,3 +11297,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.6fd3a91.K1M5wej
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.6fd3a91.K1M5wejQ-X0MMgQJvKqR4w"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.6fd3a91.K1M5wejQ-X0MMgQJvKqR4w"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.6fd3a91.K1M5wejQ-X0MMgQJvKqR4w"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.8784c71a.1DSPxtO5cNpoVJGlyiGJ1A"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.8784c71a.1DSPxtO5cNpoVJGlyiGJ1A"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.8784c71a.1DSPxtO5cNpoVJGlyiGJ1A"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.8784c71a.1DSPxtO5cNpoVJGlyiGJ1A"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.44d12486.ZPCPlx7rVEuk_JzRuBdxUQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.44d12486.ZPCPlx7rVEuk_JzRuBdxUQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.44d12486.ZPCPlx7rVEuk_JzRuBdxUQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.44d12486.ZPCPlx7rVEuk_JzRuBdxUQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.acaeaebc.Kk7zXzGjf9kFLFmNITclaw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.acaeaebc.Kk7zXzGjf9kFLFmNITclaw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.acaeaebc.Kk7zXzGjf9kFLFmNITclaw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.acaeaebc.Kk7zXzGjf9kFLFmNITclaw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.5bfb4284.Czyd3ImJJnaSvhum9dztwA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.5bfb4284.Czyd3ImJJnaSvhum9dztwA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.5bfb4284.Czyd3ImJJnaSvhum9dztwA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.5bfb4284.Czyd3ImJJnaSvhum9dztwA"])
