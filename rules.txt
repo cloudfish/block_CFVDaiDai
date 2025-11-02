@@ -11397,3 +11397,28 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.80a78704.KtmF7Q
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.80a78704.KtmF7QlveiccAnb5qP_qhw"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.80a78704.KtmF7QlveiccAnb5qP_qhw"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.80a78704.KtmF7QlveiccAnb5qP_qhw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.e5903a61.p_UMuAzFX36F1uqbPKOrXg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.e5903a61.p_UMuAzFX36F1uqbPKOrXg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.e5903a61.p_UMuAzFX36F1uqbPKOrXg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.e5903a61.p_UMuAzFX36F1uqbPKOrXg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.6dd3d80b.kx_jmNGAV6b31ERA9bXMww"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.6dd3d80b.kx_jmNGAV6b31ERA9bXMww"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.6dd3d80b.kx_jmNGAV6b31ERA9bXMww"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.6dd3d80b.kx_jmNGAV6b31ERA9bXMww"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.b290c82f.pH9VERAwON3D04ZbGeLw6w"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.b290c82f.pH9VERAwON3D04ZbGeLw6w"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.b290c82f.pH9VERAwON3D04ZbGeLw6w"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.b290c82f.pH9VERAwON3D04ZbGeLw6w"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.b7b61ee5.cVfK3_NSyBzC5QmsNUi5Ww"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.b7b61ee5.cVfK3_NSyBzC5QmsNUi5Ww"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.b7b61ee5.cVfK3_NSyBzC5QmsNUi5Ww"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.b7b61ee5.cVfK3_NSyBzC5QmsNUi5Ww"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.dc18fa15.NHZUkYgoo6fjsjo-qvWR6A"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.dc18fa15.NHZUkYgoo6fjsjo-qvWR6A"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.dc18fa15.NHZUkYgoo6fjsjo-qvWR6A"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.dc18fa15.NHZUkYgoo6fjsjo-qvWR6A"])
