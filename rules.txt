@@ -11422,3 +11422,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.dc18fa15.NHZUkY
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.dc18fa15.NHZUkYgoo6fjsjo-qvWR6A"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.dc18fa15.NHZUkYgoo6fjsjo-qvWR6A"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.dc18fa15.NHZUkYgoo6fjsjo-qvWR6A"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.e63025c6.WyVFvCWIV1j5xePVg-D_cA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.e63025c6.WyVFvCWIV1j5xePVg-D_cA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.e63025c6.WyVFvCWIV1j5xePVg-D_cA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.e63025c6.WyVFvCWIV1j5xePVg-D_cA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.5f00adaf.nGB1QGqhhFLeHWVHIjGWDA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.5f00adaf.nGB1QGqhhFLeHWVHIjGWDA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.5f00adaf.nGB1QGqhhFLeHWVHIjGWDA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.5f00adaf.nGB1QGqhhFLeHWVHIjGWDA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.c5033893.kg12b1Q-lIA-e9E1qDlYzg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.c5033893.kg12b1Q-lIA-e9E1qDlYzg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.c5033893.kg12b1Q-lIA-e9E1qDlYzg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.c5033893.kg12b1Q-lIA-e9E1qDlYzg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.ab2a897f.OG0khWhkUbhCegu5w_jeCQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.ab2a897f.OG0khWhkUbhCegu5w_jeCQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.ab2a897f.OG0khWhkUbhCegu5w_jeCQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.ab2a897f.OG0khWhkUbhCegu5w_jeCQ"])
