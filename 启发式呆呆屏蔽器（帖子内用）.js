@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      5.1
+// @version      5.2
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -18,7 +18,9 @@
     /*************************/
 
 function whitelisted(name) {
-    let a = ["InEarlySpring", "ProStormGamer", "KatsuraToShin", "\u51b0\u5176\u8339\u516e\u8559\u5176\u85b0", "\u4e28\u4e28\u7eaf\u767d\u8272\u4e28\u4e28", "\u5403\u996d\u7761\u89c9\u88f1\u54b2\u8c5a"];
+    let a = ["InEarlySpring", "ProStormGamer", "KatsuraToShin", "\u51b0\u5176\u8339\u516e\u8559\u5176\u85b0",
+             "\u4e28\u4e28\u7eaf\u767d\u8272\u4e28\u4e28", "\u5403\u996d\u7761\u89c9\u88f1\u54b2\u8c5a",
+             "\u544b\u98df\u6eab\u559c\u55f7\u6211\u5654"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
