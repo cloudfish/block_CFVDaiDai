@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      2.3
+// @version      2.4
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -22,7 +22,8 @@
 function whitelisted(name) {
     let a = ["InEarlySpring", "ProStormGamer", "KatsuraToShin", "\u51b0\u5176\u8339\u516e\u8559\u5176\u85b0",
              "\u4e28\u4e28\u7eaf\u767d\u8272\u4e28\u4e28", "\u5403\u996d\u7761\u89c9\u88f1\u54b2\u8c5a",
-             "\u544b\u98df\u6eab\u559c\u55f7\u6211\u5654"];
+             "\u544b\u98df\u6eab\u559c\u55f7\u6211\u5654", "\u8d85\u4e36\u7136\u4e28\u5b58\u4e3f\u5728",
+             "\u4e28\u975e\u59b3\u4e36\u83ab\u5c6c\u4e28", "沃丶兹丶基硕德"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -205,3 +206,4 @@ function isSpamNickname(name) {
     obs.observe(document.body, { childList: true, subtree: true });
 
 })();
+
