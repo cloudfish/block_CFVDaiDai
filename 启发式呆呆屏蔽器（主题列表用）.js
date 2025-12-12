@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      4.1
+// @version      5.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -27,7 +27,7 @@ function whitelisted(name) {
              "鼠牛虎兔龍蛇", "无情的发卡姬", "蕪湖最強伝説", "丶心如止水卍", "SunnyTimeWalk",
              "\u79cb\u98ce\u7684\u53f6\u5b50\u4e36", "\u7eaf\u6d01\u5e1d\u706c\u5c0f\u9ed1",
              "神山家的鬼姬", "\u5fd8\u6a02\u65f6\u95f4\u7684\u949f", "残留余温厶丶", "猝死的辉夜姬",
-             "\u4f3d\u9a6c\u517d\u53ef\u7231\u634f", "魅丨墨语思秋"];
+             "\u4f3d\u9a6c\u517d\u53ef\u7231\u634f", "魅丨墨语思秋", "夏目氵琉璃男"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -58,7 +58,7 @@ function isSuspiciousChineseName(name) {
 function isSpamNickname(name) {
     if (!name) return false;
     if (whitelisted(name)) return false;
-
+    if (/^[a-z]+1$/.test(name)) return true;
     if (name.length === 13 && /^[A-Za-z0-9]+$/.test(name)) {
 
         function typeA(c) {
@@ -91,7 +91,7 @@ function isSpamNickname(name) {
     }
 
     if (isSuspiciousChineseName(name)) return true;
-    if (/^[a-z]+1$/.test(name)) return true;
+
     return false;
 }
 
@@ -211,4 +211,3 @@ function isSpamNickname(name) {
     obs.observe(document.body, { childList: true, subtree: true });
 
 })();
-
