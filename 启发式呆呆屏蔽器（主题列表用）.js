@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      5.1
+// @version      5.2
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -27,7 +27,9 @@ function whitelisted(name) {
              "鼠牛虎兔龍蛇", "无情的发卡姬", "蕪湖最強伝説", "丶心如止水卍", "SunnyTimeWalk",
              "\u79cb\u98ce\u7684\u53f6\u5b50\u4e36", "\u7eaf\u6d01\u5e1d\u706c\u5c0f\u9ed1",
              "神山家的鬼姬", "\u5fd8\u6a02\u65f6\u95f4\u7684\u949f", "残留余温厶丶", "猝死的辉夜姬",
-             "\u4f3d\u9a6c\u517d\u53ef\u7231\u634f", "魅丨墨语思秋", "夏目氵琉璃男", "\u8449\u843d\u6925\u665a\u79cb\u4e36"];
+             "\u4f3d\u9a6c\u517d\u53ef\u7231\u634f", "魅丨墨语思秋", "夏目氵琉璃男", "\u8449\u843d\u6925\u665a\u79cb\u4e36",
+             "\u86cb\u6de1\u86cb\u7684\u6b87\u75db", "\u6de1\u58a8\u79bb\u6b87\u7483\u8309",
+             "\u6b7b\u94f3\u5e7d\u7075\u5b50\u5f39", "xcddy1", "孟德公瑾文远", "死铳幽灵子弹"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
