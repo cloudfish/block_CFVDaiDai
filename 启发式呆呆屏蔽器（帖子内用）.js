@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      9.2
+// @version      9.3
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -27,7 +27,7 @@ function whitelisted(name) {
              "神山家的鬼姬", "\u5fd8\u6a02\u65f6\u95f4\u7684\u949f", "残留余温厶丶", "猝死的辉夜姬",
              "\u4f3d\u9a6c\u517d\u53ef\u7231\u634f", "魅丨墨语思秋", "夏目氵琉璃男", "\u8449\u843d\u6925\u665a\u79cb\u4e36",
              "\u86cb\u6de1\u86cb\u7684\u6b87\u75db", "\u6de1\u58a8\u79bb\u6b87\u7483\u8309",
-             "\u6b7b\u94f3\u5e7d\u7075\u5b50\u5f39", "xcddy1", "孟德公瑾文远", "死铳幽灵子弹"];
+             "\u6b7b\u94f3\u5e7d\u7075\u5b50\u5f39", "xcddy1", "孟德公瑾文远", "死铳幽灵子弹", "tutengyu1"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -185,3 +185,4 @@ elem.querySelectorAll('.j_user_card').forEach(card => {
     // 初次运行
     processAll();
 })();
+
