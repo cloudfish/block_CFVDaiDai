@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      11.0
+// @version      12.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -56,7 +56,7 @@ function isSuspiciousChineseName(name) {
             score += 2;
         }
     }
-    return score >= 1;
+    return score >= 2;
 }
 
 function isSpamNickname(name) {
@@ -95,7 +95,7 @@ function isSpamNickname(name) {
             return true;
     }
 
-    //if (isSuspiciousChineseName(name)) return true;
+    if (isSuspiciousChineseName(name)) return true;
     return false;
 }
 
