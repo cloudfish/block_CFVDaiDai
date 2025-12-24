@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      6.1
+// @version      7.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -33,7 +33,8 @@ function whitelisted(name) {
              "啊飒飒发顺丰", "\u6d88\u5931\u753e\u4eba\u6d77\u4e36", "\u611b\u6298\u78e8\u4f60\u7684\u4eba",
              "丶安然浅眠丿", "子衿提不起劲", "yqxyjc1", "\u9ad4\u5f31\u591a\u75c5\u842c\u88e1\u82b1",
              "\u53cd\u5e94\u601d\u79d1\u4f60\u4e0e\u9e9f", "\u7279\u83c8\u6cd5\u5c14\u52a0\u4e36\u7f57",
-             "\u8389\u5988\u5988\u662f\u8389\u5a05", "\u98df\u5f97\u54b8\u9c7c\u62b5\u561a\u6e34", "dahuli1"];
+             "\u8389\u5988\u5988\u662f\u8389\u5a05", "\u98df\u5f97\u54b8\u9c7c\u62b5\u561a\u6e34", "dahuli1",
+             "双鱼复方草珊瑚"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -97,7 +98,7 @@ function isSpamNickname(name) {
             return true;
     }
 
-    if (isSuspiciousChineseName(name)) return true;
+    //if (isSuspiciousChineseName(name)) return true;
 
     return false;
 }
@@ -218,4 +219,3 @@ function isSpamNickname(name) {
     obs.observe(document.body, { childList: true, subtree: true });
 
 })();
-
