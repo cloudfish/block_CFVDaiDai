@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      8.0
+// @version      9.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -11,7 +11,8 @@
 
 (function () {
     'use strict';
-
+var title = document.getElementsByTagName("title")[0].innerHTML;
+if (title.trim()!=="雀魂吧-百度贴吧") return;
     // =========================================
     // 可调参数
     // =========================================
@@ -34,7 +35,8 @@ function whitelisted(name) {
              "丶安然浅眠丿", "子衿提不起劲", "yqxyjc1", "\u9ad4\u5f31\u591a\u75c5\u842c\u88e1\u82b1",
              "\u53cd\u5e94\u601d\u79d1\u4f60\u4e0e\u9e9f", "\u7279\u83c8\u6cd5\u5c14\u52a0\u4e36\u7f57",
              "\u8389\u5988\u5988\u662f\u8389\u5a05", "\u98df\u5f97\u54b8\u9c7c\u62b5\u561a\u6e34", "dahuli1",
-             "双鱼复方草珊瑚"];
+             "双鱼复方草珊瑚", "\u9241\u6fc6\u591f\u6fb6\u6ebe\u6e5e", "ilkopsem", "mcgmshen", "crosschoas",
+             "elietzzz", "vvhvgdhcdd"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -62,11 +64,65 @@ function isSuspiciousChineseName(name) {
     return score >= 2;
 }
 
+function isSuspiciousPureLovercaseUsername(username) {
+    // 1. 基础过滤：不是 8-12 位纯小写字母的，视为正常用户
+    if (!/^[a-z]{8,12}$/.test(username)) {
+        return false;
+    }
+
+    const len = username.length;
+    const vowels = (username.match(/[aeiou]/g) || []).length;
+    const vowelRatio = vowels / len;
+
+    // 2. 检查连续辅音：英文和拼音中很少出现连续 4 个辅音
+    // 考虑到拼音如 "zhang" (3个辅音) 或英文 "strength" (较多)，
+    // 我们将阈值设为 4。
+    if (/[bcdfghjklmnpqrstvwxyz]{4,}/.test(username)) {
+        return true; // 极有可能是机器人
+    }
+
+    // 3. 元音比例异常检查：
+    // 随机生成的字符串元音往往极少（<15%）或极多（>70%）
+    if (vowelRatio < 0.2 || vowelRatio > 0.7) {
+        return true;
+    }
+
+    // 4. Bigram (双字母组合) 评分
+    // 这里的集合包含了英文和拼音中最高频的组合
+    const commonBigrams = new Set([
+        'in', 'er', 'an', 're', 'on', 'at', 'en', 'es', 'ed', 'te', // 英文常见
+        'al', 'st', 'ng', 'ch', 'sh', 'th', 'ou', 'ia', 'uo', 'ao', // 拼音/英文
+        'ai', 'ei', 'ui', 'ua', 'un', 'ia', 'ie', 'iu', 'io', 'li', // 拼音高频
+        'ma', 'xi', 'ha', 'lo', 've', 'ey', 'am', 'ur', 'er'        // 语义词常见
+    ]);
+
+    let commonCount = 0;
+    for (let i = 0; i < len - 1; i++) {
+        const bigram = username.substring(i, i + 2);
+        if (commonBigrams.has(bigram)) {
+            commonCount++;
+        }
+    }
+
+    // 计算自然度得分：常见组合占总长度的比例
+    // 正常单词（如 hamburger, xiaomahai）得分通常较高
+    const naturalnessScore = commonCount / (len - 1);
+
+    // 阈值判断：如果得分过低（代表充满了奇怪的字符跳转，如 qn, hz, jm）
+    // 则判定为机器人。0.25 是一个经验值。
+    if (naturalnessScore < 0.25) {
+        return true;
+    }
+
+    return false;
+}
+
 function isSpamNickname(name) {
     if (!name) return false;
     if (whitelisted(name)) return false;
     if (/^[a-z]+1$/.test(name)) return true;
-    if (/^贴吧用户_J6/.test(name)) return true;
+    if (isSuspiciousPureLovercaseUsername(name)) return true;
+    //if (/^贴吧用户_J6/.test(name)) return true;
     if (name.length === 13 && /^[A-Za-z0-9]+$/.test(name)) {
 
         function typeA(c) {
