@@ -15917,3 +15917,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.75b53a8f._WICTW
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.75b53a8f._WICTW2lLw-YP_jF9-P5Gw"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.75b53a8f._WICTW2lLw-YP_jF9-P5Gw"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.75b53a8f._WICTW2lLw-YP_jF9-P5Gw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.514583c8.mAG4gTsp64l6DtiyRNfThQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.514583c8.mAG4gTsp64l6DtiyRNfThQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.514583c8.mAG4gTsp64l6DtiyRNfThQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.514583c8.mAG4gTsp64l6DtiyRNfThQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.2d3e7b2.OhBW9t-3MwhIW8Mg9OzfKg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.2d3e7b2.OhBW9t-3MwhIW8Mg9OzfKg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.2d3e7b2.OhBW9t-3MwhIW8Mg9OzfKg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.2d3e7b2.OhBW9t-3MwhIW8Mg9OzfKg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.b296f31.Cd00HPyT-yKGj9E2LeEoEQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.b296f31.Cd00HPyT-yKGj9E2LeEoEQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.b296f31.Cd00HPyT-yKGj9E2LeEoEQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.b296f31.Cd00HPyT-yKGj9E2LeEoEQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.f2d9e603.IKnejwEzJ0XO0lThh2G1Ww"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.f2d9e603.IKnejwEzJ0XO0lThh2G1Ww"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.f2d9e603.IKnejwEzJ0XO0lThh2G1Ww"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.f2d9e603.IKnejwEzJ0XO0lThh2G1Ww"])
