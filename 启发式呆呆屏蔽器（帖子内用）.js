@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      15.3
+// @version      15.4
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -37,7 +37,8 @@ function whitelisted(name) {
              "elietzzz", "vvhvgdhcdd", "glripcity", "ksjgekcdjd", "ejdiwdjw", "zxyybxxzdx", "xxxxxxadw",
              "jcndnsnsnn", "xyzkesxyzkes", "justforayt", "ufyejhfftho", "御四海而哀蒼生", "qwerthhxusj",
              "noselenar", "zoucon1", "gggluggg", "sweetperi", "izuminako", "qazdrtgbjihf", "agxkkdmfmfm",
-             "nimgoloanddi", "\u8317\u94a4\u5976\u7eff\u516d\u547a\u59ec"];
+             "nimgoloanddi", "\u8317\u94a4\u5976\u7eff\u516d\u547a\u59ec", "eddeeeeedee", "三咲市的地铁站",
+             "pandengzy"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -250,4 +251,3 @@ elem.querySelectorAll('.j_user_card').forEach(card => {
     // 初次运行
     processAll();
 })();
-
