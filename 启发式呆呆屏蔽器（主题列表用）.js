@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      9.4
+// @version      9.5
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -40,7 +40,9 @@ function whitelisted(name) {
              "jcndnsnsnn", "xyzkesxyzkes", "justforayt", "ufyejhfftho", "御四海而哀蒼生", "qwerthhxusj",
              "noselenar", "zoucon1", "gggluggg", "sweetperi", "izuminako", "qazdrtgbjihf", "agxkkdmfmfm",
              "nimgoloanddi", "\u8317\u94a4\u5976\u7eff\u516d\u547a\u59ec", "eddeeeeedee", "三咲市的地铁站",
-             "pandengzy"];
+             "pandengzy", "ffxnhfxsfj", "\u98ce\u6d41\u501c\u50a5\u5965\u4e01\u54e5", "lavishwish", "kolentooo",
+             "deadechoes", "jrhendbbg", "\u840c\u7530\u85b0\u5b50\u6df7\u6c8c\u9171",
+             "\u62b1\u54e5\u6703\u8d70\u8def\u4e86", "qwferasit", "hybqwetime"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
