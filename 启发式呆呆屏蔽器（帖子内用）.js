@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      15.5
+// @version      16.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -40,7 +40,9 @@ function whitelisted(name) {
              "nimgoloanddi", "\u8317\u94a4\u5976\u7eff\u516d\u547a\u59ec", "eddeeeeedee", "三咲市的地铁站",
              "pandengzy", "ffxnhfxsfj", "\u98ce\u6d41\u501c\u50a5\u5965\u4e01\u54e5", "lavishwish", "kolentooo",
              "deadechoes", "jrhendbbg", "\u840c\u7530\u85b0\u5b50\u6df7\u6c8c\u9171",
-             "\u62b1\u54e5\u6703\u8d70\u8def\u4e86", "qwferasit", "hybqwetime"];
+             "\u62b1\u54e5\u6703\u8d70\u8def\u4e86", "qwferasit", "hybqwetime", "wzdnssaaa", "qweyoiudsa",
+             "mongdreamer", "\u665a\u7d66\u81ea\u5df1\u5b89\u7d66\u59b3", "heavenfyllzj", "thewindris",
+             "wmdwwdz", "anonsoyosuki"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -124,6 +126,7 @@ function isSuspiciousPureLovercaseUsername(username) {
 function isSpamNickname(name) {
     if (!name) return false;
     if (whitelisted(name)) return false;
+    if (/^[\u4E00-\u9FFF]{2}[A-Z]{2}[0-9]{2}[\u4E00-\u9FFF]{2}[a-z]{2}$/.test(name)) return true;
     if (/^[a-z]+1$/.test(name)) return true;
     if (isSuspiciousPureLovercaseUsername(name)) return true;
     //if (/^贴吧用户_J6/.test(name)) return true;
