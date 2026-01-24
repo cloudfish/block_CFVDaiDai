@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      11.0
+// @version      12.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -44,7 +44,9 @@ function whitelisted(name) {
              "deadechoes", "jrhendbbg", "\u840c\u7530\u85b0\u5b50\u6df7\u6c8c\u9171",
              "\u62b1\u54e5\u6703\u8d70\u8def\u4e86", "qwferasit", "hybqwetime", "wzdnssaaa", "qweyoiudsa",
              "mongdreamer", "\u665a\u7d66\u81ea\u5df1\u5b89\u7d66\u59b3", "heavenfyllzj", "thewindris",
-             "wmdwwdz", "anonsoyosuki", "paticularcc", "twmdwwdz", "struckee", "hfadgged", "萌君呀么么哒"];
+             "wmdwwdz", "anonsoyosuki", "paticularcc", "twmdwwdz", "struckee", "hfadgged", "萌君呀么么哒",
+             "zhupppppppp", "geesimple", "killergonzo", "chenllyqwq", "dennisphilip", "delicaprod",
+             "\u796f\u796f\u6700\u53ef\u7231\u5440", "上古黄帝轩辕"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -129,7 +131,7 @@ function isSpamNickname(name) {
     if (!name) return false;
     if (whitelisted(name)) return false;
     if (/^[\u4E00-\u9FFF]{2}[A-Z]{2}[0-9]{2}[\u4E00-\u9FFF]{2}[a-z]{2}$/.test(name)) return true;
-    if (/^[a-z]+1$/.test(name)) return true;
+    if (/^[a-z]+[1-2]$/.test(name)) return true;
     if (isSuspiciousPureLovercaseUsername(name)) return true;
     //if (/^贴吧用户_J6/.test(name)) return true;
     if (name.length === 13 && /^[A-Za-z0-9]+$/.test(name)) {
