@@ -16727,3 +16727,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.4a8c1ae2.CX1CIR
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.4a8c1ae2.CX1CIRCITpZL8lwck0i8SQ"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.4a8c1ae2.CX1CIRCITpZL8lwck0i8SQ"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.4a8c1ae2.CX1CIRCITpZL8lwck0i8SQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.3f0a193b.Z5dNYCzMBUjelYNRT0v5Iw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.3f0a193b.Z5dNYCzMBUjelYNRT0v5Iw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.3f0a193b.Z5dNYCzMBUjelYNRT0v5Iw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.3f0a193b.Z5dNYCzMBUjelYNRT0v5Iw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.1bd83cdb.CQ7Fo_QJTs2JxtUAu5l68Q"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.1bd83cdb.CQ7Fo_QJTs2JxtUAu5l68Q"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.1bd83cdb.CQ7Fo_QJTs2JxtUAu5l68Q"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.1bd83cdb.CQ7Fo_QJTs2JxtUAu5l68Q"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.4f02873a.WD6misRdAGN-aLsUzCDx2w"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.4f02873a.WD6misRdAGN-aLsUzCDx2w"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.4f02873a.WD6misRdAGN-aLsUzCDx2w"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.4f02873a.WD6misRdAGN-aLsUzCDx2w"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.133705be.U4ftaekWNbaxgEvqsQr9OA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.133705be.U4ftaekWNbaxgEvqsQr9OA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.133705be.U4ftaekWNbaxgEvqsQr9OA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.133705be.U4ftaekWNbaxgEvqsQr9OA"])
