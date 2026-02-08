@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      19.0
+// @version      20.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -48,7 +48,9 @@ function whitelisted(name) {
              "\u7eeb\u5c0f\u8def\u60e0\u5403\u7cd6", "qilaigaoyue", "yawnzhangg", "浔阳江头秋色色", "koumingzhou",
              "blinkhorn2", "nakedmessage", "sdfxcsfnice", "feizhuyue", "nimaggggggg", "闰土的渣渣猹", "zhabsehwh",
              "luvsumimi", "goberzerkk", "gfffgggfffgu", "博弈此生无情", "东方曜努力上镜", "老夫子撸啊噜", "香炉野史缇亚",
-             "liuhhhkjhkj", "\u591c\u534a\u7121\u4eba\u624b\u4f5c\u59bb"];
+             "liuhhhkjhkj", "\u591c\u534a\u7121\u4eba\u624b\u4f5c\u59bb", "今天涟改二了吗", "lzrkoroko123",
+             "香草味的帕琪", "莉莉丝的砧板", "大愛丿西尔维灬", "\u4f55\u65f6\u5fd8\u5374\u8425\u8425\u4e41",
+             "jackoyamg"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -133,7 +135,7 @@ function isSpamNickname(name) {
     if (!name) return false;
     if (whitelisted(name)) return false;
     if (/^[\u4E00-\u9FFF]{2}[A-Z]{2}[0-9]{2}[\u4E00-\u9FFF]{2}[a-z]{2}$/.test(name)) return true;
-    if (/^[a-z]+[1-2]$/.test(name)) return true;
+    if (/^[a-z]+[0-2]$/.test(name)) return true;
     if (/^[a-z]+123$/.test(name)) return true;
     if (isSuspiciousPureLovercaseUsername(name)) return true;
     //if (/^贴吧用户_J6/.test(name)) return true;
