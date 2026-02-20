@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      20.0
+// @version      20.1
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -50,7 +50,14 @@ function whitelisted(name) {
              "luvsumimi", "goberzerkk", "gfffgggfffgu", "博弈此生无情", "东方曜努力上镜", "老夫子撸啊噜", "香炉野史缇亚",
              "liuhhhkjhkj", "\u591c\u534a\u7121\u4eba\u624b\u4f5c\u59bb", "今天涟改二了吗", "lzrkoroko123",
              "香草味的帕琪", "莉莉丝的砧板", "大愛丿西尔维灬", "\u4f55\u65f6\u5fd8\u5374\u8425\u8425\u4e41",
-             "jackoyamg"];
+             "jackoyamg", "hdmhahjxb", "sheepnap", "\u523a\u75db\u7738\u5b50\u7684\u7b11\u5bb9",
+             "\u53ed\u560e\u724c\u8f67\u8def\u673a", "\u96e8\u82b1\u53f0\u5434\u5f66\u7956", "sxsakura",
+             "gelegend", "\u706b\u604d\u604d\u60da\u60da\u597d", "heartaeae", "QianJunJiefly",
+             "\u5f6a\u5f6a\u6e05\u7738\u62d3\u58a8", "cxgddsmile", "ggzzxxxx",
+             "\u7687\u4e0a\u4e0d\u6025\u8a79\u871c\u6025", "再战地嗯爱抚", "yangruijxhsy", "zjxyyxhcwds", "sproutseed",
+             "\u5305\u83dc\u7ea2\u70e7\u7eef\u7389\u4e38", "wwwilson", "江海叆叇忆余生", "shenyuzhe0", "TheAncientOne",
+             "\u6b64\u7528\u623a\u88ab\u6ce8\u518c", "kotonekotone", "nicewzybai", "\u67da\u5b50\u67da\u5b50\u8336\u4f1a",
+             "temewabaga"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
