@@ -17537,3 +17537,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.d0d04e91.x4l0AK
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.d0d04e91.x4l0AKY8DJ14fGBpTM27Xw"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.d0d04e91.x4l0AKY8DJ14fGBpTM27Xw"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.d0d04e91.x4l0AKY8DJ14fGBpTM27Xw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.7aaa9406.twdy3F6JkhzzPKToIHaL8Q"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.7aaa9406.twdy3F6JkhzzPKToIHaL8Q"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.7aaa9406.twdy3F6JkhzzPKToIHaL8Q"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.7aaa9406.twdy3F6JkhzzPKToIHaL8Q"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.a0a9bfec.AQFErpQRUk6sDtIDGQOnWA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.a0a9bfec.AQFErpQRUk6sDtIDGQOnWA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.a0a9bfec.AQFErpQRUk6sDtIDGQOnWA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.a0a9bfec.AQFErpQRUk6sDtIDGQOnWA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.8997f869.pSt5ahVfOFJwMUzGnUZPHQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.8997f869.pSt5ahVfOFJwMUzGnUZPHQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.8997f869.pSt5ahVfOFJwMUzGnUZPHQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.8997f869.pSt5ahVfOFJwMUzGnUZPHQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.3d1fc0a0.fsX9KlTR-0ryU5x7OC-KtQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.3d1fc0a0.fsX9KlTR-0ryU5x7OC-KtQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.3d1fc0a0.fsX9KlTR-0ryU5x7OC-KtQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.3d1fc0a0.fsX9KlTR-0ryU5x7OC-KtQ"])
