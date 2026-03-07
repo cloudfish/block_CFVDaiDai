@@ -17732,3 +17732,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.f80dc4df.NGDYz6
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.f80dc4df.NGDYz69fFHUSLZa8NEhmYQ"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.f80dc4df.NGDYz69fFHUSLZa8NEhmYQ"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.f80dc4df.NGDYz69fFHUSLZa8NEhmYQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.463c1d23.1M8LyAQHqhVxRYk3Nnn9fA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.463c1d23.1M8LyAQHqhVxRYk3Nnn9fA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.463c1d23.1M8LyAQHqhVxRYk3Nnn9fA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.463c1d23.1M8LyAQHqhVxRYk3Nnn9fA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.37c523cb.0y0XMzV6Y54e0IaIpT2hOg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.37c523cb.0y0XMzV6Y54e0IaIpT2hOg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.37c523cb.0y0XMzV6Y54e0IaIpT2hOg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.37c523cb.0y0XMzV6Y54e0IaIpT2hOg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.c174bed4.MTeo5FCCgiNsbF92NT8qxQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.c174bed4.MTeo5FCCgiNsbF92NT8qxQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.c174bed4.MTeo5FCCgiNsbF92NT8qxQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.c174bed4.MTeo5FCCgiNsbF92NT8qxQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.f076c48c.tpNiMMCUW8dZ4XGG6hBBlg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.f076c48c.tpNiMMCUW8dZ4XGG6hBBlg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.f076c48c.tpNiMMCUW8dZ4XGG6hBBlg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.f076c48c.tpNiMMCUW8dZ4XGG6hBBlg"])
