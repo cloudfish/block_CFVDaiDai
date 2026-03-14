@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      14.1
+// @version      15.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -59,7 +59,25 @@ function whitelisted(name) {
              "\u7687\u4e0a\u4e0d\u6025\u8a79\u871c\u6025", "再战地嗯爱抚", "yangruijxhsy", "zjxyyxhcwds", "sproutseed",
              "\u5305\u83dc\u7ea2\u70e7\u7eef\u7389\u4e38", "wwwilson", "江海叆叇忆余生", "shenyuzhe0", "TheAncientOne",
              "\u6b64\u7528\u623a\u88ab\u6ce8\u518c", "kotonekotone", "nicewzybai", "\u67da\u5b50\u67da\u5b50\u8336\u4f1a",
-             "temewabaga"];
+             "temewabaga", "teddyyukin", "lovexwh1", "richiidora", "四糸乃快回家", "吾好梦中怼人", "偶然十字路楠",
+             "\u559c\u6b22\u6211\u56af\u5440\u9171\u5417", "zzfengzz1", "hhhhhoppo", "aceofhearts",
+             "\u4f59\u60c5\u672a\u592e\u5fc3\u5fae\u6dbc", "leviosaavada", "zxyzpyzw",
+             "\u5434\u7476\u4e00\u5206\u9ed1\u6728\u8033", "asdfghjklau", "dlkfhpreoi", "恩德丽丝范忒",
+             "jkvjkvjkv", "\u4e16\u5e7d\u6627\u516e\u5bdf\u5584\u6076", "ssaasshine", "wotmcnmbd", "用户名苼成中",
+             "\u57fa\u60c5\u7684\u6d1b\u8036\u592b", "hdhwjwjw", "wolooool", "\u6d93\u5d87\u57cd\u7ed7\u6214\u6acf",
+             "ccddllxx", "\u59ec\u5c14\u4f3d\u7f8e\u4ec0\u5927\u4eba", "zjtzdinghy", "kotaiiii",
+             "\u6447\u66f3\u4e8e\u706f\u5149\u4e0b", "卟离丶卟弃丨", "\u6653\u7b71\u4e0d\u662f\u7b71\u6653",
+             "annsafly", "wykisgod", "smartcuber", "lovejjjhgf", "\u8001\u8872\u540d\u66f0\u7ea2\u9b54",
+             "yyqscgym", "jyfghjjb", "听见你的無言", "喔我了个大槽啊", "\u83ca\u82b1\u4e00\u9635\u9635\u7619\u75d2",
+             "scdashazyx", "\u8d85\u9ad8\u6821\u7d1a\u66b4\u9f8d", "\u965b\u4e0b\u53c8\u9a7e\u5d29\u4e86",
+             "hdsxaaaa", "fckjhwek", "xhmcxn123", "ainifeng0", "\u516d\u6c30\u5408\u94c1\u79bb\u5b50",
+             "yanxuefeiwu", "\u4e16\u95f4\u7f8e\u597d\u5189\u82d2", "lucknjjsn", "棒棒糖要有艿",
+             "\u8bf8\u845b\u6731\u8238", "whwxwzjsbwd", "\u857e\u519e\u8389\u4e9a","\u71ce\u5c3d\u897f\u5c71",
+             "\u5f64\u65c1\u5662\u8036", "\u8606\u8466\u7d50\u821f", "\u760b\u72c2\u7c73\u8332", "牌烂坚决不铳",
+             "熵减今天吃什么", "\u98ce\u516e\u96e8\u516e\u7ec8\u8eab\u7f18", "\u98db\u9280\u4e4b\u528d",
+             "\u513f\u65f6\u82cd\u7a79\u513f\u65f6\u5fc6", "投琼瑶以迎伊", "\u6211\u6709\u6df7\u6c8c\u6211\u81ea\u8c6a",
+             "我纯纯叒偌至", "\u5f8a\u8c93\u4e0d\u662f\u574f\u732b", "tangziyi0", "\u767d\u7cd6\u62cc\u98ef",
+             "\u5807\u8272\u6708\u8679"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -71,7 +89,7 @@ const LESS_COMMON = "乂乜兀弋孑孓幺亓韦廿丏卅仄厄仃仉仂兮刈�
 function isSuspiciousChineseName(name) {
     if (!name) return false;
 
-    if ((!/^[\u4E00-\u9FFF]{6}$/.test(name)) && (!/^[\u4E00-\u9FFF]{7}$/.test(name))) return false;
+    if ((!/^[\u4E00-\u9FFF]{6}$/.test(name)) && (!/^[\u4E00-\u9FFF]{7}$/.test(name)) && (!/^[\u4E00-\u9FFF]{4}$/.test(name))) return false;
 
     let score = 0;
 
@@ -144,8 +162,10 @@ function isSpamNickname(name) {
     if (!name) return false;
     if (whitelisted(name)) return false;
     if (/^[\u4E00-\u9FFF]{2}[A-Z]{2}[0-9]{2}[\u4E00-\u9FFF]{2}[a-z]{2}$/.test(name)) return true;
+    if (/^[\u4E00-\u9FFF]{4}[A-Z][0-9][a-z][0-9]$/.test(name)) return true;
     if (/^[a-z]+[0-2]$/.test(name)) return true;
     if (/^[a-z]+123$/.test(name)) return true;
+    if (/^[a-z]+999$/.test(name)) return true;
     if (isSuspiciousPureLovercaseUsername(name)) return true;
     //if (/^贴吧用户_J6/.test(name)) return true;
     if (name.length === 13 && /^[A-Za-z0-9]+$/.test(name)) {
