@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（主题列表用）
 // @namespace    http://tampermonkey.net/
-// @version      15.0
+// @version      16.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（主题列表用）.js
 // @description  屏蔽某位不受欢迎的用户的小号，并可选择隐藏主题帖或仅模糊昵称
@@ -77,7 +77,20 @@ function whitelisted(name) {
              "熵减今天吃什么", "\u98ce\u516e\u96e8\u516e\u7ec8\u8eab\u7f18", "\u98db\u9280\u4e4b\u528d",
              "\u513f\u65f6\u82cd\u7a79\u513f\u65f6\u5fc6", "投琼瑶以迎伊", "\u6211\u6709\u6df7\u6c8c\u6211\u81ea\u8c6a",
              "我纯纯叒偌至", "\u5f8a\u8c93\u4e0d\u662f\u574f\u732b", "tangziyi0", "\u767d\u7cd6\u62cc\u98ef",
-             "\u5807\u8272\u6708\u8679"];
+             "\u5807\u8272\u6708\u8679", "哒哒今天", "\u80f6\u5e26\u8700\u9ecd", "\u7c73\u5b97\u7cbd\u7cbd\u7cbd\u7cbd\u5b50",
+             "\u8def\u4eba\u7532\u9890", "kkimizero", "djmaxkaka", "\u7eef\u5c9a\u8fe6\u73de", "炽野邪少", "mizukuuu",
+             "\u5bd2\u6d31\u6728\u4e1c", "影流撸王", "\u674e\u6657\u6d9b\u7684\u8d26\u53f7", "eeegtsssbtfv",
+             "jgfijkgf", "dianzjsh", "巨匠吹响金號角", "\u70e7\u4f24\u79d1\u6cbb\u98a0\u4f6c", "\u767d\u8863\u89aa\u76f8",
+             "简单爱倫", "changedddd", "\u690e\u540d\u7ae5\u8a71", "summmerjuice", "\u831c\u8272\u7684\u7535\u89c6\u673a",
+             "\u5728\u89d2\u843d\u7684\u8fde\u6f2a", "J\u521d\u5fc3\u672a\u6cef", "\u6708\u89c1\u8358\u7684\u5929\u5802\u54e5",
+             "\u6d41\u7eed\u5187\u94b1", "山河碎殇", "\u6c34\u6708\u5c1b\u6cab", "charliebymz",
+             "\u5b87\u5b99\u82f1\u96c4\u963f\u514b\u5e54", "\u9177\u70ab\u5c0f\u5d3d", "成田隼人",
+             "\u4e03\u6748\u7284\u89d2\u7684\u718a", "sndifsjdnf", "wenosclk", "sdgassfsf", "缇婃寚瀵拣煇",
+             "\u98ce\u95f4\u66e6\u6708", "ycjyujun", "\u5149\u4e4b\u70ab\u70e8", "highiggh", "eqda2",
+             "aruketotijan", "chemiser1", "\u6765\u81ea\u7329\u7329\u7684\u730a", "\u53d1\u98d9\u8d6b\u7fbd",
+             "\u5ee3\u5cf6\u539f\u5b50", "\u9999\u98a8\u667a\u4e43\u8cfd\u9ad8", "\u98de\u821e\u7684\u9716",
+             "jntmamagi", "xjxxxqwe", "asdqwzcb", "promencerus", "\u963f\u7c73\u5a05\u662f\u9a74\u5440",
+             "琉璃幻梦兮和音"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -89,7 +102,7 @@ const LESS_COMMON = "乂乜兀弋孑孓幺亓韦廿丏卅仄厄仃仉仂兮刈�
 function isSuspiciousChineseName(name) {
     if (!name) return false;
 
-    if ((!/^[\u4E00-\u9FFF]{6}$/.test(name)) && (!/^[\u4E00-\u9FFF]{7}$/.test(name)) && (!/^[\u4E00-\u9FFF]{4}$/.test(name))) return false;
+    if ((!/^[\u4E00-\u9FFF]{6}$/.test(name)) && (!/^[\u4E00-\u9FFF]{7}$/.test(name)) && (!/^[\u4E00-\u9FFF]{4}$/.test(name))　&& (!/^[\u4E00-\u9FFF]{5}$/.test(name))) return false;
 
     let score = 0;
 
@@ -163,10 +176,11 @@ function isSpamNickname(name) {
     if (whitelisted(name)) return false;
     if (/^[\u4E00-\u9FFF]{2}[A-Z]{2}[0-9]{2}[\u4E00-\u9FFF]{2}[a-z]{2}$/.test(name)) return true;
     if (/^[\u4E00-\u9FFF]{4}[A-Z][0-9][a-z][0-9]$/.test(name)) return true;
+    if (/^[A-Z][\u4E00-\u9FFF]{4}$/.test(name)) return true;
     if (/^[a-z]+[0-2]$/.test(name)) return true;
     if (/^[a-z]+123$/.test(name)) return true;
     if (/^[a-z]+999$/.test(name)) return true;
-    if (isSuspiciousPureLovercaseUsername(name)) return true;
+    //if (isSuspiciousPureLovercaseUsername(name)) return true;
     //if (/^贴吧用户_J6/.test(name)) return true;
     if (name.length === 13 && /^[A-Za-z0-9]+$/.test(name)) {
 
