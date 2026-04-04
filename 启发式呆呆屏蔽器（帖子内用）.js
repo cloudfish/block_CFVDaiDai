@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      22.0
+// @version      23.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -88,7 +88,17 @@ function whitelisted(name) {
              "aruketotijan", "chemiser1", "\u6765\u81ea\u7329\u7329\u7684\u730a", "\u53d1\u98d9\u8d6b\u7fbd",
              "\u5ee3\u5cf6\u539f\u5b50", "\u9999\u98a8\u667a\u4e43\u8cfd\u9ad8", "\u98de\u821e\u7684\u9716",
              "jntmamagi", "xjxxxqwe", "asdqwzcb", "promencerus", "\u963f\u7c73\u5a05\u662f\u9a74\u5440",
-             "琉璃幻梦兮和音"];
+             "琉璃幻梦兮和音", "听说贴八都很氵", "\u829c\u6708\u832f\u6faa", "甄儿花未眠", "\u5b89\u5f92\u751f\u9340\u8b0a\u8a00",
+             "隨风而下", "\u5f11\u795e\u7b71\u5f71", "八月霖八月", "逍遥之摩羯", "玥啊玥阿玥", "鱼死网破额咯", "不爱只为等你乄",
+             "卩灬女王控", "卓安婕的梦", "\u5e73\u4e50\u56e7\u5c0f\u5b66", "狄俄尼索斯秘语", "卟噜灬卟噜", "木马木马狙击",
+             "萌萌哒可儿江", "\u660e\u6708\u5bee\u593c", "\u7693\u6dfc\u74dc\u4e09\u5c81",
+             "\u55c9\u8f70\u7b09\u7459\u5903\u84df", "獨戰神话", "小鑫很菜", "成嶋美海", "\u633c\u8a00\u7678\u8bed",
+             "\u4e8c\u968e\u5802\u771f\u84dd", "\u9cf3\u821e\u4f3c\u9a55\u967d", "卟把妳打哭", "闪耀叮咚",
+             "waterfan123", "\u795e\u6a02\u7530\u5fc3", "神官偽娘", "玖我风焱", "南灬窊灯", "sy\u8587\u5c14\u8389\u7279",
+             "哈哈哈呵呵咚咚", "\u4e5d\u689d\u7483\u96e8", "罕見東雪蓮", "\u9955\u992e\u541e\u9e92\u9e9f",
+             "老李子铂锐", "\u5187\u4e36\u8282\u4e36\u64cd", "dandaorushi2", "\u54bf\u54bf\u5440\u5440\u7231\u7231",
+             "\u8774\u8776\u7bc0\u62cd", "se\u8d58\u7f3a\u60e9\u9175", "\u5361\u6d1b\u7433\u5a05\u5a05",
+             "maicch1"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -175,6 +185,7 @@ function isSpamNickname(name) {
     if (/^[\u4E00-\u9FFF]{2}[A-Z]{2}[0-9]{2}[\u4E00-\u9FFF]{2}[a-z]{2}$/.test(name)) return true;
     if (/^[\u4E00-\u9FFF]{4}[A-Z][0-9][a-z][0-9]$/.test(name)) return true;
     if (/^[A-Z][\u4E00-\u9FFF]{4}$/.test(name)) return true;
+    if (/^[a-z]{2}[\u4E00-\u9FFF]{4}$/.test(name)) return true;
     if (/^[a-z]+[0-2]$/.test(name)) return true;
     if (/^[a-z]+123$/.test(name)) return true;
     if (/^[a-z]+999$/.test(name)) return true;
