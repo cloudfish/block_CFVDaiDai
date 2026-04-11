@@ -19537,3 +19537,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.50a022ac.NhL6Di
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.50a022ac.NhL6DiKi8k9vQeoSaox2aA"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.50a022ac.NhL6DiKi8k9vQeoSaox2aA"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.50a022ac.NhL6DiKi8k9vQeoSaox2aA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.c65928b1.GgIRnAT-Rtt1hPE2Br9vCw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.c65928b1.GgIRnAT-Rtt1hPE2Br9vCw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.c65928b1.GgIRnAT-Rtt1hPE2Br9vCw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.c65928b1.GgIRnAT-Rtt1hPE2Br9vCw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.1c76d6a6.qCihdOKKWK-U-U-2CFt9iA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.1c76d6a6.qCihdOKKWK-U-U-2CFt9iA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.1c76d6a6.qCihdOKKWK-U-U-2CFt9iA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.1c76d6a6.qCihdOKKWK-U-U-2CFt9iA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.8f981ebf.DkUgO_R0HE6uTslJqji11Q"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.8f981ebf.DkUgO_R0HE6uTslJqji11Q"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.8f981ebf.DkUgO_R0HE6uTslJqji11Q"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.8f981ebf.DkUgO_R0HE6uTslJqji11Q"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.23e2dc93.zMJg_5RtIezlCRTtcMrTcw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.23e2dc93.zMJg_5RtIezlCRTtcMrTcw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.23e2dc93.zMJg_5RtIezlCRTtcMrTcw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.23e2dc93.zMJg_5RtIezlCRTtcMrTcw"])
