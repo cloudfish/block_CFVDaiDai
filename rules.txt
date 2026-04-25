@@ -19887,3 +19887,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.158993da.SNg6a2
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.158993da.SNg6a2RPG7aOGeU2FqoPCg"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.158993da.SNg6a2RPG7aOGeU2FqoPCg"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.158993da.SNg6a2RPG7aOGeU2FqoPCg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.97f58190.yG3-TIgMRnhz1i8v1fF8ig"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.97f58190.yG3-TIgMRnhz1i8v1fF8ig"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.97f58190.yG3-TIgMRnhz1i8v1fF8ig"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.97f58190.yG3-TIgMRnhz1i8v1fF8ig"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.5d65af1e.XuJZAVPFj5sAhT9Fw7p8Nw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.5d65af1e.XuJZAVPFj5sAhT9Fw7p8Nw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.5d65af1e.XuJZAVPFj5sAhT9Fw7p8Nw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.5d65af1e.XuJZAVPFj5sAhT9Fw7p8Nw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.5fa702e3.oRq9ddmOcpWQGFuJdvaGHQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.5fa702e3.oRq9ddmOcpWQGFuJdvaGHQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.5fa702e3.oRq9ddmOcpWQGFuJdvaGHQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.5fa702e3.oRq9ddmOcpWQGFuJdvaGHQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.4e181b6a.ZAfgydD98pp2pv7mo00lDw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.4e181b6a.ZAfgydD98pp2pv7mo00lDw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.4e181b6a.ZAfgydD98pp2pv7mo00lDw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.4e181b6a.ZAfgydD98pp2pv7mo00lDw"])
