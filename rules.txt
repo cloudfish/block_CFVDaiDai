@@ -20107,3 +20107,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.8a7a393b.Kz1g3_
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.8a7a393b.Kz1g3_I0P14RqCgnBHhBlQ"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.8a7a393b.Kz1g3_I0P14RqCgnBHhBlQ"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.8a7a393b.Kz1g3_I0P14RqCgnBHhBlQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.2986cf5a.itiaqyZAXZDh_vcYv5GOUA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.2986cf5a.itiaqyZAXZDh_vcYv5GOUA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.2986cf5a.itiaqyZAXZDh_vcYv5GOUA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.2986cf5a.itiaqyZAXZDh_vcYv5GOUA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.12b95692.-F7LEuWuY2n7VDWMWiI32Q"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.12b95692.-F7LEuWuY2n7VDWMWiI32Q"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.12b95692.-F7LEuWuY2n7VDWMWiI32Q"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.12b95692.-F7LEuWuY2n7VDWMWiI32Q"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.b5d4b75b.R06Lnt_WB4nyXDgE4TSFLw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.b5d4b75b.R06Lnt_WB4nyXDgE4TSFLw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.b5d4b75b.R06Lnt_WB4nyXDgE4TSFLw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.b5d4b75b.R06Lnt_WB4nyXDgE4TSFLw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.d5e4afc1._Ujb-w5JIuTj1C4dQ2jIDw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.d5e4afc1._Ujb-w5JIuTj1C4dQ2jIDw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.d5e4afc1._Ujb-w5JIuTj1C4dQ2jIDw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.d5e4afc1._Ujb-w5JIuTj1C4dQ2jIDw"])
