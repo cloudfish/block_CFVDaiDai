@@ -20167,3 +20167,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.d71775a7.jFgRqG
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.d71775a7.jFgRqG7VAmxrE8VE3GbcMg"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.d71775a7.jFgRqG7VAmxrE8VE3GbcMg"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.d71775a7.jFgRqG7VAmxrE8VE3GbcMg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.9ee9e083.dbOofgLENgtGgXN0omPFwg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.9ee9e083.dbOofgLENgtGgXN0omPFwg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.9ee9e083.dbOofgLENgtGgXN0omPFwg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.9ee9e083.dbOofgLENgtGgXN0omPFwg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.bd142013.vm4P24ITJgcJ3lqhAlFf4A"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.bd142013.vm4P24ITJgcJ3lqhAlFf4A"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.bd142013.vm4P24ITJgcJ3lqhAlFf4A"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.bd142013.vm4P24ITJgcJ3lqhAlFf4A"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.a8bf7a8c.m_ZfXNPiQvQGfXHpgfauYQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.a8bf7a8c.m_ZfXNPiQvQGfXHpgfauYQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.a8bf7a8c.m_ZfXNPiQvQGfXHpgfauYQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.a8bf7a8c.m_ZfXNPiQvQGfXHpgfauYQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.81921f60.4AL-4cv2V3Rc0cjr1zNRyw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.81921f60.4AL-4cv2V3Rc0cjr1zNRyw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.81921f60.4AL-4cv2V3Rc0cjr1zNRyw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.81921f60.4AL-4cv2V3Rc0cjr1zNRyw"])
