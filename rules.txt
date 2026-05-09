@@ -20217,3 +20217,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.fedf016e.gJvQK7
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.fedf016e.gJvQK7Li5Fn5llBrg0QAIg"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.fedf016e.gJvQK7Li5Fn5llBrg0QAIg"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.fedf016e.gJvQK7Li5Fn5llBrg0QAIg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.dea9bd54.0ivI0r_xkjbqhc_iFyXchQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.dea9bd54.0ivI0r_xkjbqhc_iFyXchQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.dea9bd54.0ivI0r_xkjbqhc_iFyXchQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.dea9bd54.0ivI0r_xkjbqhc_iFyXchQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.fe502dd7.CpnQcCvTOtt1YyarGpy8Ig"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.fe502dd7.CpnQcCvTOtt1YyarGpy8Ig"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.fe502dd7.CpnQcCvTOtt1YyarGpy8Ig"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.fe502dd7.CpnQcCvTOtt1YyarGpy8Ig"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.273abbbc.-TWezPKTIOHca_Uf0FTm1g"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.273abbbc.-TWezPKTIOHca_Uf0FTm1g"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.273abbbc.-TWezPKTIOHca_Uf0FTm1g"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.273abbbc.-TWezPKTIOHca_Uf0FTm1g"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.100d70d8.8X4anKX1gxMPRrw7jwnuDQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.100d70d8.8X4anKX1gxMPRrw7jwnuDQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.100d70d8.8X4anKX1gxMPRrw7jwnuDQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.100d70d8.8X4anKX1gxMPRrw7jwnuDQ"])
