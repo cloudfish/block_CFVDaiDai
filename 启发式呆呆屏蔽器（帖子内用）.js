@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         启发式呆呆屏蔽器（帖子内用）
 // @namespace    http://tampermonkey.net/
-// @version      23.0
+// @version      24.0
 // @downloadURL  https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @updateURL    https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/启发式呆呆屏蔽器（帖子内用）.js
 // @description  屏蔽或模糊某个不受欢迎的用户的小号
@@ -98,7 +98,21 @@ function whitelisted(name) {
              "哈哈哈呵呵咚咚", "\u4e5d\u689d\u7483\u96e8", "罕見東雪蓮", "\u9955\u992e\u541e\u9e92\u9e9f",
              "老李子铂锐", "\u5187\u4e36\u8282\u4e36\u64cd", "dandaorushi2", "\u54bf\u54bf\u5440\u5440\u7231\u7231",
              "\u8774\u8776\u7bc0\u62cd", "se\u8d58\u7f3a\u60e9\u9175", "\u5361\u6d1b\u7433\u5a05\u5a05",
-             "maicch1"];
+             "maicch1", "\u661f\u91ce\u7531\u4e9e", "wc\u5565\u90fd\u5b58\u5728", "鸩羽千夜灬丶", "根緒亜紗里",
+             "小偞黄杨", "憇欧尼酱", "丶耿耿於怀", "这波不亏咯", "楼兰么么踹", "何熙远岚丶", "川澄绫子", "東方灵異伝",
+             "灵乌路空哒", "天地一家大愛盟", "\u5f61\u5c0f\u707f\u706c\u54e5\u4e36", "結城浩一郎",
+             "\u840c\u840c\u54d2\u7684\u6f2b\u4f24", "\u4e00\u53ea\u5c0f\u6c3f\u96c6", "悪猫退散", "我舞影彷徨"
+             "mrwy0", "一般路过旧梵", "白娅的琦琦", "\u4e30\u7a70\u4fdd\u4f51", "柚芽味香气", "陈梦梦梦婷", "eihh1",
+             "shanzhuofu1", "卍解咿呀", "\u4f60\u505a\u8334\u9999\u6c64\u5566", "一口大铁锅炖鱼", "结月梦魇",
+             "迷惘的蝉", "\u4e8c\u6c2f\u94a1\u9492", "亓元重宝", "終極小龜", "鸫鳩蘗榟", "天枰蓝听",
+             "\u60a6\u94b0\u6eaa\u6893", "嗜血的孢子", "萌萌哒的小秀吉", "岚月星玄", "sosiayogg123", "豆腐賣女孩",
+             "\u6700\u6700\u53ef\u7231\u7684\u5c0f\u6615", "流雲瞬星", "最爱琨哥", "\u8bb4\u6b4c\u771f\u7406\u4e4b\u8000",
+             "\u923d\u546d\u6340\u6978\u714e\u645c\u923e", "uwrd0", "灬苍穹灬", "星海鳐咻咿",
+             "\u51ac\u5742\u4eca\u5929\u5403\u4ec0\u4e48", "摩羯之炼金术师", "undeadelf2", "獠牙小呆",
+             "\u60e7\u4f60\u4ee5\u971c\u96ea\u4e3a\u51a2", "\u51ef\u91cc\u97e6\u5fb7", "正义红師", "七曜的星空",
+             "虚境舜灵", "迷戀时光的海角", "\u957f\u8eab\u9e8b\u9e7f", "虚空忍者梓", "椎名初音楪祈", "无语凋零", "撒篦喺呐",
+             "老柚子飒", "雨中之龍", "是葉子不是叶子", "princehr1", "終南望馀雪", "萌萌哒之主", "魑丶旋律", "水水汐吃骨头",
+             "壹汀烟雨", "alphaxia2003"];
     for (let i = 0; i < a.length; i++) {
         if (name === a[i]) return true;
     }
@@ -187,6 +201,8 @@ function isSpamNickname(name) {
     if (/^[A-Z][\u4E00-\u9FFF]{4}$/.test(name)) return true;
     if (/^[a-z]{2}[\u4E00-\u9FFF]{4}$/.test(name)) return true;
     if (/^[a-z]+[0-2]$/.test(name)) return true;
+    if (/^[a-z]{5}[0-9][a-z]{2}[0-9]{4}$/.test(name)) return true;
+    if (/^[a-z]{8}[0-9]{4}$/.test(name)) return true;
     if (/^[a-z]+123$/.test(name)) return true;
     if (/^[a-z]+999$/.test(name)) return true;
     //if (isSuspiciousPureLovercaseUsername(name)) return true;
@@ -222,7 +238,7 @@ function isSpamNickname(name) {
             return true;
     }
 
-    if (isSuspiciousChineseName(name)) return true;
+    //if (isSuspiciousChineseName(name)) return true;
     return false;
 }
 
