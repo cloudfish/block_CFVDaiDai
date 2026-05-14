@@ -20302,3 +20302,23 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.1d976a35.Ny6-RV
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.1d976a35.Ny6-RVuyRHksiH7B7ojhiA"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.1d976a35.Ny6-RVuyRHksiH7B7ojhiA"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.1d976a35.Ny6-RVuyRHksiH7B7ojhiA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.e04eb9ad.2gsHCrhyPBhWX2XoXOOoSg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.e04eb9ad.2gsHCrhyPBhWX2XoXOOoSg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.e04eb9ad.2gsHCrhyPBhWX2XoXOOoSg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.e04eb9ad.2gsHCrhyPBhWX2XoXOOoSg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.a5d2859e.RMwmcfHpemF9Y6VmtJ-XGg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.a5d2859e.RMwmcfHpemF9Y6VmtJ-XGg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.a5d2859e.RMwmcfHpemF9Y6VmtJ-XGg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.a5d2859e.RMwmcfHpemF9Y6VmtJ-XGg"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.8e2832ca.ESLYIy8Fq5OZdI9is_zrVQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.8e2832ca.ESLYIy8Fq5OZdI9is_zrVQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.8e2832ca.ESLYIy8Fq5OZdI9is_zrVQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.8e2832ca.ESLYIy8Fq5OZdI9is_zrVQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.4a51aeeb.8WbGWL9iffG-A69kRcyc3Q"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.4a51aeeb.8WbGWL9iffG-A69kRcyc3Q"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.4a51aeeb.8WbGWL9iffG-A69kRcyc3Q"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.4a51aeeb.8WbGWL9iffG-A69kRcyc3Q"])
