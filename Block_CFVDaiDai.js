@@ -20,7 +20,7 @@
 
 /*
 
-Original script by burningall (https://greasyfork.org/zh-CN/scripts/19520-block-somebody).
+Original script by axetroy (https://greasyfork.org/zh-CN/scripts/19520-block-somebody).
 
 Modified by 游鱼Dream.
 
