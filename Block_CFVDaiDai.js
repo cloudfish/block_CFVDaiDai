@@ -98,7 +98,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-  var panel = new _panel2.default();
+	var panel = new _panel2.default();
 	var POSITION = _common2.default.getPosition();
 
 	var hardcodedBlacklist = [
@@ -4248,7 +4248,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 "tb.1.8ad75cc7.yP-R5xK2ljed7_-m_IYpGw",
 "tb.1.971fb59.CI5_pr7yYa9lFKxmDs8mww",
 "tb.1.c8051125.aUgISRQm6GCk2vsLhRHsoA",
-"tb.1.ddc4b7d4.WqfoeB-q6RPzwwg9qbiULA"
+"tb.1.ddc4b7d4.WqfoeB-q6RPzwwg9qbiULA",
+"tb.1.227c6c5f.qaEBmEOYki2mTFvSdpkLjg",
+"tb.1.67c3c5bc.B-xBQ7_0-QZi5FC1M28wrg",
+"tb.1.a355a9a6.kUM6yVUSAOD3s3zPlCGLYA",
+"tb.1.c41caafa.YdlmeLOrU6WVAqsXaQB9Sw"
 	];
 
 	var isBlocked = function(id) {
