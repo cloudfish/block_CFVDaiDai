@@ -20967,3 +20967,48 @@ tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.86fb2679.XlAwrh
 tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.86fb2679.XlAwrh9yOFLaUfuVgfUPdw"])
 tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.86fb2679.XlAwrh9yOFLaUfuVgfUPdw"])
 tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.86fb2679.XlAwrh9yOFLaUfuVgfUPdw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.96a6d929.21VKw9wPu5QlMe0714-PRA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.96a6d929.21VKw9wPu5QlMe0714-PRA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.96a6d929.21VKw9wPu5QlMe0714-PRA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.96a6d929.21VKw9wPu5QlMe0714-PRA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.398466f4.JCvVPg9-ux9XxEE5EPUmdQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.398466f4.JCvVPg9-ux9XxEE5EPUmdQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.398466f4.JCvVPg9-ux9XxEE5EPUmdQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.398466f4.JCvVPg9-ux9XxEE5EPUmdQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.d0d9dd19.FfFnFDC5xQc_mljJOJMDSA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.d0d9dd19.FfFnFDC5xQc_mljJOJMDSA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.d0d9dd19.FfFnFDC5xQc_mljJOJMDSA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.d0d9dd19.FfFnFDC5xQc_mljJOJMDSA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.f3c38e68.rrZ68W8MDBuzPxBzdaDyxQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.f3c38e68.rrZ68W8MDBuzPxBzdaDyxQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.f3c38e68.rrZ68W8MDBuzPxBzdaDyxQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.f3c38e68.rrZ68W8MDBuzPxBzdaDyxQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.c04c72f6.KZtZAlpXCYX38FRlFooaWQ"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.c04c72f6.KZtZAlpXCYX38FRlFooaWQ"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.c04c72f6.KZtZAlpXCYX38FRlFooaWQ"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.c04c72f6.KZtZAlpXCYX38FRlFooaWQ"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.5596b8d4.n3ymOdKBbIggjd4IlXtNJA"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.5596b8d4.n3ymOdKBbIggjd4IlXtNJA"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.5596b8d4.n3ymOdKBbIggjd4IlXtNJA"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.5596b8d4.n3ymOdKBbIggjd4IlXtNJA"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.ce6aa1e3.jGcFtReTiKk8l2r_T5aE4w"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.ce6aa1e3.jGcFtReTiKk8l2r_T5aE4w"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.ce6aa1e3.jGcFtReTiKk8l2r_T5aE4w"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.ce6aa1e3.jGcFtReTiKk8l2r_T5aE4w"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.735034ed.43WGM9a0lopF4gTbqjnCxw"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.735034ed.43WGM9a0lopF4gTbqjnCxw"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.735034ed.43WGM9a0lopF4gTbqjnCxw"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.735034ed.43WGM9a0lopF4gTbqjnCxw"])
+
+tieba.baidu.com##.j_thread_list:has(a.j_user_card[href*="id=tb.1.e81d9923.IRnlzoFRzH6bMrTF7ox2Wg"])
+tieba.baidu.com##.l_post:has(a.p_author_name[href*="id=tb.1.e81d9923.IRnlzoFRzH6bMrTF7ox2Wg"])
+tieba.baidu.com##.lzl_single_post:has(a.j_user_card img[src$="tb.1.e81d9923.IRnlzoFRzH6bMrTF7ox2Wg"])
+tieba.baidu.com##.lzl_single_post:has(.lzl_content_main a.at[portrait="tb.1.e81d9923.IRnlzoFRzH6bMrTF7ox2Wg"])
