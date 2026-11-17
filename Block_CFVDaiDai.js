@@ -2,7 +2,7 @@
 // @name    呆呆屏蔽器
 // @author  游鱼Dream
 // @description 在雀魂吧屏蔽某人
-// @version     1.15
+// @version     2.0
 // @include     *tieba.baidu.com/p/*
 // @include     *tieba.baidu.com/*
 // @include     *tieba.baidu.com/f?*
@@ -14,8 +14,8 @@
 // @grant       GM_registerMenuCommand
 // @run-at      document-start
 // @license     The MIT License (MIT); http://opensource.org/licenses/MIT
-// @downloadURL https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/Block_CFVDaiDai.js
-// @updateURL   https://github.com/cloudfish/block_CFVDaiDai/raw/refs/heads/main/Block_CFVDaiDai.js
+// @downloadURL https://cdn.jsdelivr.net/gh/cloudfish/Block_CFVDaiDai/Block_CFVDaiDai.js
+// @updateURL   https://cdn.jsdelivr.net/gh/cloudfish/Block_CFVDaiDai/Block_CFVDaiDai.js
 // ==/UserScript==
 
 /*
@@ -4390,6 +4390,18 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 "tb.1.e5c27fb5.8Or8mNEI4sR0LOn0y10Qww",
 "tb.1.e95f7d2c.oTpneQ3MYVettYZnlgmcBw",
 "tb.1.eb244c9d.gJdmUMuIzxYvDunWheNung",
+"tb.1.1f5b59d0.9HsBjIJ3gorKuW-Fz_pHKg",
+"tb.1.47984333.9BOowFPVwN9wfYEWSsIHlQ",
+"tb.1.4f0b3ed9.ROKNc2kK7tlAWF-njnY1og",
+"tb.1.6a643b52.0FA34hu97fXkYfAk-zsftA",
+"tb.1.8318911.IDg6DpEHFxgcks05JtRlBw",
+"tb.1.858f4eea.aFIKlnQAg2Ul8S078Jqpkg",
+"tb.1.89637a35.EBtkUXiQsQZwbrKsp4z4iQ",
+"tb.1.8ee2a4c5.nmqAE2CWFWXvSxsgoEDk_Q",
+"tb.1.b51669d5.IoL_TCjqA6qZRJvy1Ry--g",
+"tb.1.ba466e01.RiuBk9BtsDkRg6STftwWxw",
+"tb.1.c7a2f0af.xvfpIey0XiOC-mWOcA_58g",
+"tb.1.edfff0d1._S3mRmBA_HbHsT3j4dyRmg",
 	];
 
 	var isBlocked = function(id) {
