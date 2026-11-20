@@ -2,7 +2,7 @@
 // @name    呆呆屏蔽器
 // @author  游鱼Dream
 // @description 在雀魂吧屏蔽某人
-// @version     2.13
+// @version     2.15
 // @include     *tieba.baidu.com/p/*
 // @include     *tieba.baidu.com/*
 // @include     *tieba.baidu.com/f?*
@@ -4415,6 +4415,8 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 "tb.1.56217c77.wjhOc7YdE70-QeeZPCiN9g",
 "tb.1.9f9e072a.Srgmw05XsywLauUTVWAHkg",
 "tb.1.bf1cc748.uxZoZkoccOsNSLAOHO2sQQ",
+"tb.1.f0af7057.-BImfBDAPNE4OdwGyltfAg",
+"tb.1.997c0c76.Y2JN0J7_IqnVzY4dzHP5bQ",
 	]; /* Blacklist Ends Here */
 
 	var isBlocked = function(id) {
